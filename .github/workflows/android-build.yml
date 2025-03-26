@@ -1,12 +1,12 @@
-name: Android  Build
+name:  Android  Build
 on:
   push:
     branches: ["master"]
-
+    
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    
     steps:
       - name: Check out repositiry
         uses:  actions/checkout@v2
