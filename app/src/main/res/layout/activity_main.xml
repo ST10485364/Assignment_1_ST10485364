@@ -34,6 +34,14 @@
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="56dp" />
 
+    <TextView
+        android:id="@+id/MealSuggestions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meal Suggestions"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="56dp" />
+
     <Button
         android:id="@+id/btnCheck"
         android:layout_width="match_parent"
